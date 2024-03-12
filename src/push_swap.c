@@ -6,11 +6,16 @@
 /*   By: alirola- <alirola-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 15:46:32 by alirola-          #+#    #+#             */
-/*   Updated: 2024/03/11 19:04:11 by alirola-         ###   ########.fr       */
+/*   Updated: 2024/03/12 13:24:37 by alirola-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+/*void	ft_leaks(void)
+{
+	system("leaks -q push_swap");
+}atexit(ft_leaks); */
 
 static void	init_struct(t_data *data)
 {

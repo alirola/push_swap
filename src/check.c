@@ -6,7 +6,7 @@
 /*   By: alirola- <alirola-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 15:59:54 by alirola-          #+#    #+#             */
-/*   Updated: 2024/03/11 19:01:55 by alirola-         ###   ########.fr       */
+/*   Updated: 2024/03/12 13:25:24 by alirola-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	check_arguments(int argc, char **argv, t_data *data)
 {
 	if (argc == 1)
-		return (ft_printf("Number of arguments error\n"), EXIT_FAILURE);
+		return (EXIT_FAILURE);
 	if (argc == 2)
 		data->arg = ft_split (argv[1], ' ');
 	if (argc > 2)
